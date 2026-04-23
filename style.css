@@ -103,11 +103,11 @@ body {
 }
 .about .paragraph {
 	text-align: justify;
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 .info-section {
 	margin: 1rem 0;
-	font-size: 1.5rem;
+	font-size: 2rem;
 }
 .info-section span {
 	position: relative;
