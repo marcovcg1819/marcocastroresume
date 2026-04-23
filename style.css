@@ -95,19 +95,17 @@ body {
 	letter-spacing: 1px;
 }
 
-.titleb {
+.intro-section .titleb {
 	font-size: 1rem;
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 1px;
-    margin-top: 50px;
 }
 .about .paragraph {
 	text-align: justify;
 }
 .info-section {
 	margin: 1rem 0;
-    float: left;
 }
 .info-section span {
 	position: relative;
