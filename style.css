@@ -78,7 +78,7 @@ body {
 	margin-top: 1rem;
 }
 .bio .profession {
-	font-size: 1rem;
+	font-size: 2rem;
 	text-align: center;
 	color: var(--color-gray-light-1);
 	margin: 0;
@@ -89,14 +89,14 @@ body {
 	color: var(--color-gray-dark-1);
 }
 .intro-section .title {
-	font-size: 1rem;
+	font-size: 2rem;
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 }
 
 .intro-section .titleb {
-	font-size: 1rem;
+	font-size: 3rem;
 	font-weight: bold;
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -173,7 +173,7 @@ body {
 	padding-left: calc(1.5rem + 10px);
 }
 .title-icon + span {
-	font-size: 1.5rem;
+	font-size: 3.5rem;
 	transition: all 0.3s;
 }
 .title-icon {
@@ -191,7 +191,7 @@ body {
 .title-icon i {
 	color: white;
 	line-height: 1rem;
-	font-size: 1rem;
+	font-size: 3rem;
 	text-align: center;
 }
 .detail-section:hover .title-icon {
@@ -211,16 +211,16 @@ body {
 	margin-bottom: 1rem;	
 }
 .timeline-block h1 {
-	font-size: 1rem;
+	font-size: 2rem;
 	margin: 5px 0;
 	transition: all 0.3s;
 }
 .timeline-block p {
-	font-size: 0.8rem;
+	font-size: 1.8rem;
 	margin: 5px 0;
 }
 .timeline-block time {
-	font-size: 0.8rem;
+	font-size: 1.8rem;
 	color: var(--color-gray-dark-2);
 }
 .timeline-block::before {
@@ -265,6 +265,7 @@ a {
 	align-items: center;
 	text-decoration: none;
 	color: black;
+	font-size: 20px;;
 }
 .sb-skeleton {
 	position: relative;
@@ -325,12 +326,12 @@ a {
 }
 .tool-list > li > .tl-name {
 	top: 50%;
-	font-size: 1.2rem;
+	font-size: 2.2rem;
 	transform: translate(-50%, -50%);
 }
 .tool-list > li > .tl-exp {	
 	top: calc(50% + 1.4rem);
-	font-size: 1rem;
+	font-size: 3rem;
 	transform: translate(-50%, -50%);
 }
 /* Interests Section */
@@ -358,7 +359,7 @@ a {
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
-	font-size: 40px;
+	font-size: 80px;
 	width: 50px;
 	height: 50px;
 }
@@ -381,7 +382,7 @@ a {
 
 @media (max-width: 1024px) {
 	html {
-		font-size: 90%;
+		font-size: 110%;
 	}
 	.wrapper {
 		flex-direction: column;
