@@ -270,20 +270,20 @@
           if (!response.ok) {
             throw new Error('Error en la red');
           }
-          return response.json();
+          return response.text();
         })
         .then(data => {
           console.log("Datos del contador:", data);
           // Suponiendo que la API devuelve un objeto con una propiedad 'conteo' o similar
           //const display = document.getElementById("contador-visitas");
-          if(display) {
-            display.textContent = data.conteo || data.valor || JSON.stringify(data);
-          }
+          //if(display) {
+          //  display.textContent = data.conteo || data.valor || JSON.stringify(data);
+          //}
         })
         .catch(error => {
           console.error("Hubo un problema con la petición fetch:", error);
-          const display = document.getElementById("contador-visitas");
-          if(display) display.textContent = "No disponible";
+          //const display = document.getElementById("contador-visitas");
+          //if(display) display.textContent = "No disponible";
         });
     });
   </script>
