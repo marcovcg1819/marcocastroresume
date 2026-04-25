@@ -258,11 +258,35 @@
 
       
   </div>
-  <img src="https://hits.dwyl.com/marcovcg1819/marcocastroresume.svg" 
-     alt="Hits" 
-     style="display: none;">
+
 </div>
 
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+      const url = "https://raleigh-continued-dome-scotland.trycloudflare.com/api/contador";
+      
+      fetch(url)
+        .then(response => {
+          if (!response.ok) {
+            throw new Error('Error en la red');
+          }
+          return response.json();
+        })
+        .then(data => {
+          console.log("Datos del contador:", data);
+          // Suponiendo que la API devuelve un objeto con una propiedad 'conteo' o similar
+          //const display = document.getElementById("contador-visitas");
+          if(display) {
+            display.textContent = data.conteo || data.valor || JSON.stringify(data);
+          }
+        })
+        .catch(error => {
+          console.error("Hubo un problema con la petición fetch:", error);
+          const display = document.getElementById("contador-visitas");
+          if(display) display.textContent = "No disponible";
+        });
+    });
+  </script>
 
     </body>
 </html>
