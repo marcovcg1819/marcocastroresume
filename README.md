@@ -20,6 +20,16 @@
 - 💡 **Recomendaciones inteligentes:** Obtén acciones claras y personalizadas para reducir costos e impacto ambiental.
 
 ### ☁️ Despliegue
-El proyecto se encuentra alojado y desplegado en **Oracle Cloud Infrastructure (OCI)** sobre una instancia **Ampere A1 (ARM64)** ejecutando **Oracle Linux 9**.
+El proyecto se encuentra alojado y desplegado en **Oracle Cloud Infrastructure (OCI)** sobre una instancia **Ampere A1 (ARM64)** ejecutando **Ubuntu 24.04 LTS**.
+
+---
+
+## 🎬 Demo del proyecto
+
+### Video de demostración:
+
+[![Demostración de Energi IA](https://img.youtube.com/vi/f7DShxUZmTI/maxresdefault.jpg)](https://www.youtube.com/watch?v=f7DShxUZmTI)
+
+> 🎥 **[Haz clic aquí para ver la demostración en YouTube](https://www.youtube.com/watch?v=f7DShxUZmTI)**
 
 ---
