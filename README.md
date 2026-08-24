@@ -98,23 +98,4 @@ El sistema sigue una arquitectura modular y desacoplada, contenedorizada mediant
 
 ---
 
----
-
-## 🚀 Prerrequisitos e Instalación / Despliegue con Docker
-
-### Prerrequisitos
-Asegúrate de contar con las siguientes herramientas instaladas antes de comenzar:
-* **Git**
-* **Docker Engine** (versión 20.10 o superior)
-* **Docker Compose** (versión 2.0 o superior)
-
----
-
-### Paso a Paso para Ejecución Local o en Servidor
-
-#### 1. Clonar el repositorio
-```bash
-git clone [https://github.com/No-Country-simulation/G9-LATAM-TEAM-06.git](https://github.com/No-Country-simulation/G9-LATAM-TEAM-06.git)
-cd G9-LATAM-TEAM-06
-
 
