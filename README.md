@@ -83,3 +83,38 @@ El sistema sigue una arquitectura modular y desacoplada, contenedorizada mediant
 4. **Infraestructura & Contenedores (Docker / OCI):** Todo el entorno se ejecuta de forma aislada mediante Docker sobre **Oracle Cloud Infrastructure (OCI)** en una arquitectura Ampere A1 (ARM64) con **Ubuntu 24.04 LTS**.
 
 ---
+
+---
+
+## 🛠️ Tecnologías Utilizadas / Stack Técnico
+
+| Capa / Componente | Tecnología | Descripción / Uso |
+| :--- | :--- | :--- |
+| **Frontend** | Angular 21.2.0 | Framework SPA para la interfaz interactiva, componentes gráficos y dashboards. |
+| **Backend** | Java 21 / Spring Boot 4.1.0 | API RESTful, gestión de servicios, lógica de negocio y validaciones. |
+| **Analítica & ML** | Python 3.10+ | Modelos de Machine Learning (Scikit-Learn) y procesamiento de datasets (Pandas, NumPy). |
+| **Contenedores** | Docker & Docker Compose | Contenedorización, aislamiento de entorno y orquestación de servicios. |
+| **Infraestructura** | OCI Ampere A1 (ARM64) | Instancia en la nube basada en Ubuntu 24.04 LTS para hosting de producción. |
+
+---
+
+---
+
+## 🚀 Prerrequisitos e Instalación / Despliegue con Docker
+
+### Prerrequisitos
+Asegúrate de contar con las siguientes herramientas instaladas antes de comenzar:
+* **Git**
+* **Docker Engine** (versión 20.10 o superior)
+* **Docker Compose** (versión 2.0 o superior)
+
+---
+
+### Paso a Paso para Ejecución Local o en Servidor
+
+#### 1. Clonar el repositorio
+```bash
+git clone [https://github.com/No-Country-simulation/G9-LATAM-TEAM-06.git](https://github.com/No-Country-simulation/G9-LATAM-TEAM-06.git)
+cd G9-LATAM-TEAM-06
+
+
