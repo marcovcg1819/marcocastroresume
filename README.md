@@ -39,11 +39,11 @@ El proyecto se encuentra alojado y desplegado en **Oracle Cloud Infrastructure (
 El sistema cuenta con un conjunto de herramientas diseñadas para el análisis, diagnóstico y optimización del uso energético:
 
 - 📋 **Resumen:** 
-- 📊 **Análisis General:** 
-- 📜 **Historial:** 
-- ⚖️ **Comparar Periodos:** 
-- 📂 **Procesamiento CSV:** 
-- 🏆 **Ranking Energético:** 
-- 💡 **Simulador de Ahorro:**
+- 📊 **Análisis General** 
+- 📜 **Historial** 
+- ⚖️ **Comparar Periodos** 
+- 📂 **Procesamiento CSV** 
+- 🏆 **Ranking Energético** 
+- 💡 **Simulador de Ahorro**
 
 ---
