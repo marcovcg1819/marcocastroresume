@@ -196,17 +196,6 @@ POST /analisis-energetico
 }
 ```
 
----
-
-## Pantallas principales
-
-- **Inicio / Dashboard** – Último análisis, probabilidad de categoría, acceso rápido a crear nuevo o ver historial.
-- **Historial** – Lista de análisis realizados, con categorías y probabilidades, y opción de borrar por selección.
-- **Comparar análisis** – Ver dos análisis uno al lado del otro, diferencias de categoría y evolución.
-- **Simulador de ahorro** – Ajustar variables (equipos, horas, uso pico) para ver el impacto estimado.
-- **Resultado de análisis** – Detalle completo: categoría, probabilidad, costo estimado, recomendaciones con sus confianzas.
-
----
 
 ## Cómo correrlo
 
