@@ -19,4 +19,7 @@
 - 🔍 **Detección de patrones:** Identifica picos inusuales y hábitos de alto consumo.
 - 💡 **Recomendaciones inteligentes:** Obtén acciones claras y personalizadas para reducir costos e impacto ambiental.
 
+### ☁️ Despliegue
+El proyecto se encuentra alojado y desplegado en **Oracle Cloud Infrastructure (OCI)** sobre una instancia **Ampere A1 (ARM64)** ejecutando **Oracle Linux 9**.
+
 ---
