@@ -2,9 +2,12 @@
 
 > **Convierte tus datos de consumo en decisiones más inteligentes.**
 
+[![Status](https://img.shields.io/badge/Status-Completado-brightgreen.svg)]()
+[![Java](https://img.shields.io/badge/Java-21-orange.svg)](https://www.oracle.com/java/)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-4.1.0-brightgreen.svg)](https://spring.io/projects/spring-boot)
+[![Angular](https://img.shields.io/badge/Angular-21.2.0-red.svg)](https://angular.dev/)
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-En_Desarrollo-orange.svg)]()
+[![Docker](https://img.shields.io/badge/Docker-Enabled-2496ED.svg?logo=docker&logoColor=white)](https://www.docker.com/)
 
 ---
 
