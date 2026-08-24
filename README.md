@@ -47,3 +47,39 @@ El sistema cuenta con un conjunto de herramientas diseñadas para el análisis, 
 - 💡 **Simulador de Ahorro**
 
 ---
+
+## 🏗️ Arquitectura del Sistema
+
+El sistema sigue una arquitectura modular y desacoplada, contenedorizada mediante **Docker** para facilitar su despliegue en entornos ARM64 / Cloud:
+
+                  +-----------------------------+
+                  |     Cliente Web / Usuario   |
+                  +--------------+--------------+
+                                 |
+                                 v
+                  +-----------------------------+
+                  |     Frontend (Angular 21)   |
+                  |   Interfaz & Visualización  |
+                  +--------------+--------------+
+                                 |
+                                 v HTTP / REST API
+                  +-----------------------------+
+                  |   Backend (Spring Boot 4.1) |
+                  |   Lógica & Gestión de Datos |
+                  +--------------+--------------+
+                                 |
+                                 v
+                  +-----------------------------+
+                  |   Servicio IA / Analytics   |
+                  |  (Python / Scikit-Learn/    |
+                  |          Pandas)            |
+                  +-----------------------------+
+
+### Flujo de Datos y Componentes:
+
+1. **Frontend (Angular 21.2.0):** Proporciona la interfaz interactiva para la carga de datos (CSV), visualización de métricas, comparativas y simulación de ahorros.
+2. **Backend REST API (Spring Boot 4.1.0 / Java 21):** Orquesta las peticiones, procesa las reglas de negocio, valida los archivos ingresados y gestiona el flujo de información.
+3. **Módulo de Analítica e IA (Python 3.10+):** Ejecuta la lógica de Machine Learning y procesamiento de datos para clasificar niveles de eficiencia, detectar patrones de alto consumo y generar proyecciones de ahorro.
+4. **Infraestructura & Contenedores (Docker / OCI):** Todo el entorno se ejecuta de forma aislada mediante Docker sobre **Oracle Cloud Infrastructure (OCI)** en una arquitectura Ampere A1 (ARM64) con **Ubuntu 24.04 LTS**.
+
+---
